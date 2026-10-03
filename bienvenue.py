@@ -10,3 +10,10 @@ reste = budget - depense
 print(f"il me reste {reste} FCFA.")
 pourcentage = depense / budget * 100
 print(f"J'ai dépensé {pourcentage}% de mon budget.")
+if pourcentage < 50 :
+        print ("situation saine : tu a depensé moins de la moitié de ton budget")
+elif pourcentage < 80 :
+        print ( " Attention, surveille tesd depenses")
+        print ("attention, surveille tes depenses. ")
+else :
+        print ("alerte : ton budget est epuiser ! ")
