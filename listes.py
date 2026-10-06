@@ -8,9 +8,10 @@ for depense in depenses:
     print(f"Dépense : {depense} FCFA")
 
 for depense in depenses:
-    if depense > 1000:
-        print(f"Grosse dépense : {depense} FCFA")
-        for depense in depenses :
-            if depense < 500 :
-                print (f'pétite dépense : {depense} FCFA')
-        
+        if depense > 1000:
+            print(f"Grosse dépense : {depense} FCFA")
+            
+for depense in depenses :
+        if depense < 500 :
+            print (f'petite dépense : {depense} FCFA')
+            
