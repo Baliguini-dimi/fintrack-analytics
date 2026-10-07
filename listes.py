@@ -15,3 +15,14 @@ for depense in depenses :
         if depense < 500 :
             print (f'petite dépense : {depense} FCFA')
             
+transactions = {
+    "montant": 1200,
+    "catégorie": "Transport",
+    "date": "2023-10-15"
+}
+print(transactions["montant"])
+print(transactions["catégorie"])
+print(transactions["date"])
+transactions["montant"] = 1500
+transactions["moyen"] = "Mobile Money"
+print(transactions)
